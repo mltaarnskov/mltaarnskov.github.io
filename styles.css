@@ -1,0 +1,68 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  flex-shrink: 0;
+  overflow-y: auto;
+  overflow-x: scroll;
+  flex-wrap: initial;
+  width: 23000px;
+}
+
+.item {
+  width: 800rem;
+  margin: 2rem;
+  display: block;
+}
+
+.item12 {
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+
+.item26 {
+  size: 50px;
+}
+
+.pa {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  overflow: scroll;
+  clear: both;
+  padding-left: 150px;
+  box-sizing: border-box;
+}
+
+.absolutesticky {
+  position: absolute;
+  top: 30%;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.title {
+  width: 500px;
+  text-align: left;
+  font-size: 1rem;
+  margin: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: inherit;
+}
+
+/* media */
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+}
