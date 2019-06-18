@@ -30,8 +30,15 @@
 }
 
 .item27 {
-  width: 100px;
+  width: 300px;
+}
+
+
+.item27 video {
+  width: 300px;
   height: auto;
+  margin-top: 600px;
+  margin-right: 300px;
 }
 
 .pa {
