@@ -1,3 +1,4 @@
+$( document ).ready(function() {
 var tid = null;
 $(window).scroll(function() {
   if (tid) return;
@@ -11,4 +12,5 @@ $(window).scroll(function() {
       el.classList.remove('active');
     }
   }, 100);
+});
 });
