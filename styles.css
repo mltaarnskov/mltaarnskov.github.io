@@ -83,10 +83,16 @@
   .item video {
     max-height: 700px;
   }
-  .item2, .item1, .item3, .item6, .item13, .item16, .item18, .item19, .item21, .item22, .item25 {
+  .item2, .item1, .item3, .item6, .item13, .item16, .item18, .item19, .item21, .item22, .item25, .item26 {
     width: 500px;
     margin: 1rem;
   }
+
+  .item5 {
+    width: 1047px;
+    margin: 1rem;
+  }
+
 .item7 {
   width: 727px;
   margin: 1rem;
@@ -103,15 +109,34 @@
 .item10 {
   margin-top: 100px;
 }
-.item17, .item15, .item14, .item23, .item5, .item10 {
+.item17, .item15, .item14, .item23, .item5, .item10, .item23 {
   width: 1060px;
+  margin: 1rem;
 }
 .item24 {
-  width: 840px;
+  width: 750px;
   margin: 1rem;
 }
 .item10 {
   width: 890px;
   margin: 1rem;
 }
+.item20 {
+  width: 1365px;
+  margin: 1rem;
+}
+.item12 {
+  width: 1261px;
+  margin: 1rem;
+}
+.pa {
+  width: 1261px;
+  margin: 1rem;
+}
+
+.container {
+  width: 18000px;
+  margin: 1rem;
+}
+
 }
