@@ -29,6 +29,7 @@
   left: 0%;
 }
 
+
 .item27 {
   width: 300px;
 }
@@ -76,4 +77,38 @@
   .item img {
     max-height: 700px;
   }
+  .item video {
+    max-height: 700px;
+  }
+  .item2, .item1, .item3, .item6, .item13, .item16, .item18, .item19, .item21, .item22, .item25 {
+    width: 500px;
+    margin: 1rem;
+  }
+.item7 {
+  width: 727px;
+  margin: 1rem;
+}
+.item8 {
+  width: 1280px;
+  margin: 1rem;
+}
+
+.item9 {
+  width: 560px;
+  margin: 1rem;
+}
+.item10 {
+  margin-top: 100px;
+}
+.item17, .item15, .item14, .item23, .item5, .item10 {
+  width: 1060px;
+}
+.item24 {
+  width: 840px;
+  margin: 1rem;
+}
+.item10 {
+  width: 890px;
+  margin: 1rem;
+}
 }
