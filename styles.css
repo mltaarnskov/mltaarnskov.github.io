@@ -58,10 +58,19 @@
 .absolutesticky {
   position: absolute;
   top: 30%;
+  left: 0;
+  width: 500vw;
 }
 
-.sticky {
-  position: sticky;
+.absolutesticky .sticky {
+  display: none;
+  max-width: 100vw;
+}
+
+.absolutesticky.active .sticky {
+  position: fixed;
+  left: 0;
+  display: block;
 }
 
 .title {
